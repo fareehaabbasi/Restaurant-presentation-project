@@ -30,7 +30,7 @@
 
 .navbar {
     background-color: black;
-    
+
 }
 
 .names :hover {
@@ -76,13 +76,19 @@
     /* background-color: aqua; */
 }
 
+@media (max-width:980px) {
+    .video-vid {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+}
 
 video {
     width: 100%;
     min-height: 100%;
 }
 
-.video-text h1{
+.video-text h1 {
     letter-spacing: 8px;
 }
 
@@ -97,7 +103,7 @@ video {
     transition: 0.5s ease;
 }
 
-.btn-1:hover{
+.btn-1:hover {
     background-color: white;
     color: black;
 }
@@ -108,6 +114,11 @@ video {
     color: white;
     letter-spacing: 1px;
     /* background-color: aqua; */
+}
+
+.alone {
+    width: 35%;
+    height: 100%;
 }
 
 .text-sec p {
@@ -123,11 +134,17 @@ video {
     /* width: 150%; */
     height: 100%;
     /* background-color: aqua; */
+    cursor: pointer;
 }
 
-.meet-img img{
+.meet-img img {
     width: 100%;
     height: 100%;
+}
+
+.meet-img img:hover {
+    transform: scale(1.04);
+    transition: 0.5s ease-in-out;
 }
 
 .meet-text {
@@ -135,6 +152,12 @@ video {
     height: 100%;
     background-color: #191A19;
     color: white;
+    cursor: pointer;
+}
+
+.meet-text:hover {
+    transform: scale(1.07);
+    transition: 0.5s ease-in-out;
 }
 
 .meet-text p {
@@ -145,4 +168,180 @@ video {
     width: 100%;
     height: 100%;
     /* background-color: aqua; */
+    cursor: pointer;
+}
+
+.meet-img-1:hover {
+    transform: scale(1.04);
+    transition: 0.5s ease;
+}
+
+.shop {
+    width: 100%;
+    height: 100%;
+}
+
+.shop p {
+    font-family: Roboto-med;
+    letter-spacing: 2px;
+}
+
+.text-shop h5 {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.text-shop-1 h5 {
+    font-family: Roboto-light;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.shop-img {
+    cursor: pointer;
+}
+
+.shop-img:hover {
+    transform: scale(1.04);
+    transition: 0.5s ease;
+}
+
+.team {
+    width: 100%;
+    height: 100%;
+}
+
+.team p {
+    font-family: Roboto-med;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.shop-img {
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
+    cursor: pointer;
+}
+
+.crousel {
+    width: 100%;
+    min-height: 40vh;
+    background-color: #101010;
+}
+
+.text-cro {
+    width: 80%;
+    height: 100%;
+    color: white;
+}
+
+.text-cro h1 {
+    font-size: 30px;
+}
+
+.cards-image-1 {
+    background-position: center;
+    background-size: cover;
+    min-height: 43vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.cards-image-1 {
+    font-family: Roboto-light;
+}
+
+.rule-sec {
+    color: white;
+}
+
+.find {
+    width: 100%;
+    height: 100%;
+}
+
+.find-text {
+    color: white;
+}
+
+.find-text .para {
+    color: rgb(157, 157, 157);
+}
+
+.btn-2 {
+    background-color: white;
+    color: black;
+    transition: none;
+    border: none;
+}
+
+.btn-2:hover {
+    background-color: rgb(137, 94, 78);
+    color: white;
+}
+
+.btn-3 {
+    transition: none;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    padding: 0.3vw 2.6vw;
+    margin-top: 0.5vw;
+    letter-spacing: 1px;
+}
+
+.find-text .pary {
+    letter-spacing: 1px;
+}
+
+.find-text .pary span {
+    font-family: Roboto-light;
+}
+
+.footer {
+    background-color: #1A191B;
+    font-weight: 300;
+}
+
+.footer button {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.footer h5 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.para {
+    color: #aeaeae;
+}
+
+.box-4 li {
+    list-style-type: none;
+}
+
+.small-footer {
+    background-color: #2A292B;
+    color: white;
+}
+
+.small-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    text-decoration: none;
 }

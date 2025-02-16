@@ -102,7 +102,7 @@
     --bs-code-color: #d63384;
     --bs-highlight-color: #212529;
     --bs-highlight-bg: #fff3cd;
-    --bs-border-width: 1px;
+    --bs-border-width: 2px;
     --bs-border-style: solid;
     --bs-border-color: #dee2e6;
     --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
@@ -786,10 +786,8 @@ progress {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     width: 100%;
-    /* padding-right: calc(var(--bs-gutter-x) * .); */
-    /* padding-left: calc(var(--bs-gutter-x) * .5); */
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    /* padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5); */
     margin-right: auto;
     margin-left: auto
 }
@@ -8161,9 +8159,9 @@ fieldset:disabled .btn {
     display: inline-block;
     align-self: stretch;
     width: var(--bs-border-width);
-    min-height: 1em;
+    min-height: 2.6em;
     background-color: currentcolor;
-    opacity: .25
+    /* opacity:  */
 }
 
 .align-baseline {
