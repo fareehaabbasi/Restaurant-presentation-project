@@ -1,0 +1,66 @@
+.main{
+    background-color:#0A0B0A;
+    width: 100%;
+    font-family: "Roboto", serif;
+    color: white;
+    overflow-x: hidden !important;
+}
+.names :hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+.menu-img img{
+    width: 100%;
+}
+.card{
+    background-color: transparent;
+    color: white;
+}
+.card img{
+    transition: width  1s, height 1s;
+    transition-delay:  0.01s;
+}
+.card-body:hover{
+   color: rgb(215, 96, 45) !important;
+   cursor: pointer;
+}
+.card img:hover{
+    width: 19.5rem;
+    height: 19.5rem;
+    cursor: pointer;
+}
+.our-special img{
+    width: 100%;
+}
+.special-text{
+    border-bottom: 1px dotted rgb(215, 96, 45);
+}
+.bever{
+    font-size: 56px;
+}
+.text:hover,.price:hover{
+    color:  rgb(215, 96, 45);
+    cursor: pointer;
+}
+.footer{
+    background-color: #1A191B;
+    font-weight: 300;
+    color: white;
+}
+.footer button{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.box-4 li{
+    list-style-type: none;
+}
+.small-footer{
+    background-color: #2A292B;
+    color: white;
+}
+.small-footer a{
+    color: white;
+    text-decoration: none;
+}
