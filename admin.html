@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="boxes d-flex justify-content-evenly  flex-wrap">
+            <div class="box d-flex justify-content-between gap-5 py-2 my-5">
+                <div class="box-img ms-5">
+                    <img src="images/arrow.PNG" alt="">
+                </div>
+                <div class="box-text me-5">
+                    <p>Today Sale</p>
+                    <h6>$1234</h6>
+                </div>
+            </div>
+            <div class="box d-flex justify-content-between gap-5 py-2 my-5">
+                <div class="box-img ms-5">
+                    <img src="images/graph.PNG" alt="">
+                </div>
+                <div class="box-text me-5">
+                    <p>Today Sale</p>
+                    <h6>$1234</h6>
+                </div>
+            </div>
+            <div class="box d-flex justify-content-between gap-5 py-2 my-5">
+                <div class="box-img ms-5">
+                    <img src="images/polygon.PNG" alt="">
+                </div>
+                <div class="box-text me-5">
+                    <p>Today Revenue</p>
+                    <h6>$1234</h6>
+                </div>
+            </div>
+            <div class="box d-flex justify-content-between gap-5 py-2 my-5">
+                <div class="box-img ms-5">
+                    <img src="images/circle.PNG" alt="">
+                </div>
+                <div class="box-text me-5">
+                    <p>Today Revenue</p>
+                    <h6>$1234</h6>
+                </div>
+            </div>
+        </div>
+        <div
+            class="graphs mb-5 d-flex justify-content-center gap-5 flex-xl-row flex-md-column flex-sm-column  justify-content-md-center">
+            <div class="bars p-3">
+                <div class="bars-text d-flex justify-content-between">
+                    <h6>WORLDWIDE SALES</h6>
+                    <p>Show All</p>
+                </div>
+                <div class="bars-img">
+                    <img src="images/bars.PNG" alt="">
+                </div>
+            </div>
+            <div class="bars p-3">
+                <div class="bars-text d-flex justify-content-between">
+                    <h6>WORLDWIDE SALES</h6>
+                    <p>Show All</p>
+                </div>
+                <div class="bars-img">
+                    <img src="images/bars.PNG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="big-table p-3">
+            <div class="big-table-text mx-5">
+                <div class="bars-text d-flex justify-content-between">
+                    <h6>RECENT SALES</h6>
+                    <p>Show All</p>
+                </div>
+                <div class="table text-center">
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Invoice</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td>01 JAN 2025</td>
+                            <td>INV-0123</td>
+                            <td>JHON DOE</td>
+                            <td>$123</td>
+                            <td>PAID</td>
+                            <td class="detail">DETAIL</td>
+                        </tr>
+                        <tr>
+                            <td>01 JAN 2025</td>
+                            <td>INV-0123</td>
+                            <td>JHON DOE</td>
+                            <td>$123</td>
+                            <td>PAID</td>
+                            <td class="detail">DETAIL</td>
+                        </tr>
+                        <tr>
+                            <td>01 JAN 2025</td>
+                            <td>INV-0123</td>
+                            <td>JHON DOE</td>
+                            <td>$123</td>
+                            <td>PAID</td>
+                            <td class="detail">DETAIL</td>
+                        </tr>
+                        <tr>
+                            <td>01 JAN 2025</td>
+                            <td>INV-0123</td>
+                            <td>JHON DOE</td>
+                            <td>$123</td>
+                            <td>PAID</td>
+                            <td class="detail">DETAIL</td>
+                        </tr>
+                        <tr>
+                            <td>01 JAN 2025</td>
+                            <td>INV-0123</td>
+                            <td>JHON DOE</td>
+                            <td>$123</td>
+                            <td>PAID</td>
+                            <td class="detail">DETAIL</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="message d-flex justify-content-evenly mt-5 p-5">
+            <div class="msg">
+                <div class="msg-upper d-flex justify-content-between">
+                    <h6 class="m-3">Messages</h6>
+                    <p class="m-3">Show All</p>
+                </div>
+                <div class="message-lower d-flex justify-content-between my-3">
+                    <div class="mesg-text-1 mx-3">
+                        <h6> <img src="images/john.jpg" alt="" class="px-3">John Doe</h6>
+                        <p class="px-3">Short message goes here...</p>
+                    </div>
+                    <div class="mesg-text-2 mx-3">
+                        <p>15 minutes ago</p>
+                    </div>
+                </div>
+                <div class="message-lower d-flex justify-content-between my-3">
+                    <div class="mesg-text-1 mx-3">
+                        <h6> <img src="images/john.jpg" alt="" class="px-3">John Doe</h6>
+                        <p class="px-3">Short message goes here...</p>
+                    </div>
+                    <div class="mesg-text-2 mx-3">
+                        <p>15 minutes ago</p>
+                    </div>
+                </div>
+                <div class="message-lower d-flex justify-content-between my-3">
+                    <div class="mesg-text-1 mx-3">
+                        <h6> <img src="images/john.jpg" alt="" class="px-3">John Doe</h6>
+                        <p class="px-3">Short message goes here...</p>
+                    </div>
+                    <div class="mesg-text-2 mx-3">
+                        <p>15 minutes ago</p>
+                    </div>
+                </div>
+                <div class="message-lower d-flex justify-content-between my-3">
+                    <div class="mesg-text-1 mx-3">
+                        <h6> <img src="images/john.jpg" alt="" class="px-3">John Doe</h6>
+                        <p class="px-3">Short message goes here...</p>
+                    </div>
+                    <div class="mesg-text-2 mx-3">
+                        <p>15 minutes ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="msg ms-5">
+                <div class="msg-upper d-flex justify-content-between">
+                    <h6 class="m-3">To do list</h6>
+                    <p class="m-3">Show All</p>
+                </div>
+                <div class="msg-lower">
+                    <input type="text" placeholder="Enter Task" class="m-3">
+                    <button>Add</button>
+                </div>
+                
+            </div>
+        </div> -->
+        
+    </div>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.main{
+    background-color: black; 
+    color: white;
+}
+.box{
+    background-color: #191C24;
+    border-radius: 5px;
+}
+.bars{
+    width: 45%;
+    background-color: #191C24;
+    border-radius: 5px;
+}
+.bars:hover{
+    background-color: #26282b;
+}
+.bars img{
+    width: 100%;
+}
+.detail{
+    background-color: red;
+}
+.big-table{
+    background-color:#191C24;
+    width: 95%;
+    margin: 0% auto;
+}
+
+table{
+    width: 100%;
+    border: 1px solid gray !important;
+}
+tr{
+    background-color: #191C24 !important ;
+    color: white !important ;
+    border-right: 1px solid gray !important;
+}
+tr:hover{
+    background-color: #26282b !important ;
+}
+.mesg-text-1 img{
+    border-radius: 50%;
+}
+
+.message-lower{
+    border-bottom: 1px solid rgb(237, 16, 16);
+}
+.msg{
+    width: 80%;
+    background-color: #191C24;
+}
+
+
+@media (max-width:1200px){
+    .bars{
+        width: 100%;
+    }
+}
