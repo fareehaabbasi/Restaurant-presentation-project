@@ -56,11 +56,77 @@
 .box-4 li{
     list-style-type: none;
 }
-.small-footer{
+
+.btn-2 {
+    background-color: white;
+    color: black;
+    transition: none;
+    border: none;
+}
+
+.btn-2:hover {
+    background-color: rgb(137, 94, 78);
+    color: white;
+}
+
+.btn-3 {
+    transition: none;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    padding: 0.3vw 2.6vw;
+    letter-spacing: 1px;
+}
+.footer {
+    background-color: #1A191B;
+    font-weight: 300;
+}
+
+.footer button {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.footer h5 {
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.footer p:hover {
+    text-decoration: underline;
+}
+
+.para {
+    color: #aeaeae;
+    cursor: pointer;
+}
+
+.box-4 li {
+    list-style-type: none;
+}
+
+.small-footer {
     background-color: #2A292B;
     color: white;
 }
-.small-footer a{
+
+.small-footer a {
     color: white;
     text-decoration: none;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.small-footer div {
+    cursor: pointer;
+}
+
+.small-footer div:hover {
+    text-decoration: underline;
 }

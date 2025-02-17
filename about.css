@@ -40,6 +40,29 @@
     transform: scale(1.1);
     transition: 0.4s ease-in-out;
 }
+
+.btn-2 {
+    background-color: white;
+    color: black;
+    transition: none;
+    border: none;
+}
+
+.btn-2:hover {
+    background-color: rgb(137, 94, 78);
+    color: white;
+}
+
+.btn-3 {
+    transition: none;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    padding: 0.3vw 2.6vw;
+    letter-spacing: 1px;
+}
+
 .footer{
     background-color: #1A191B;
     font-weight: 300;
@@ -53,10 +76,17 @@
 
 .footer h5 {
     letter-spacing: 1px;
+    cursor: pointer;
 }
+
+.footer p:hover {
+    text-decoration: underline;
+}
+
 
 .para {
     color: #aeaeae;
+    cursor: pointer;
 }
 
 .box-4 li{
@@ -72,6 +102,14 @@
 
 .btn {
     text-decoration: none;
+}
+
+.small-footer div {
+    cursor: pointer;
+}
+
+.small-footer div:hover {
+    text-decoration: underline;
 }
 
 

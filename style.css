@@ -322,10 +322,16 @@ video {
 .footer h5 {
     color: white;
     letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.footer p:hover {
+    text-decoration: underline;
 }
 
 .para {
     color: #aeaeae;
+    cursor: pointer;
 }
 
 .box-4 li {
@@ -344,4 +350,13 @@ video {
 
 .btn {
     text-decoration: none;
+}
+
+.small-footer div {
+    cursor: pointer;
+}
+
+.small-footer div:hover {
+    text-decoration: underline;
+    border-radius: 1px solid white;
 }
