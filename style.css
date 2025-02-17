@@ -30,7 +30,14 @@
 
 .navbar {
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
+.hero-sec {
+    margin-top: 60px;
 }
 
 .names :hover {
@@ -90,6 +97,20 @@ video {
 
 .video-text h1 {
     letter-spacing: 8px;
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .none {
+        display: block;
+    }
+
+    .block {
+        display: none;
+    }
 }
 
 .btn-1 {

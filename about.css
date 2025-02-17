@@ -1,41 +1,54 @@
-.main{
-    background-color:#0A0B0A;
+.main {
+    background-color: #0A0B0A;
     width: 100%;
     font-family: "Roboto", serif;
     color: white;
     overflow-x: hidden;
     box-sizing: border-box;
 }
-.black{
+
+.black {
     background-color: #000000 !important;
     color: white;
     width: 100%;
     height: 100%;
 }
+
 .navbar {
     background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
-.nav-link{
+
+.nav-link {
     color: white !important;
 }
-.dumplings{
+
+.dumplings {
     width: 100%;
 }
-.dumplings-text{
+
+.dumplings-text {
     width: 750px;
 }
-.dumplings-img{
+
+.dumplings-img {
     width: 750px;
-   height: 100%;
-/* background-color: rgb(55, 101, 101); */
+    height: 100%;
+    /* background-color: rgb(55, 101, 101); */
 }
-.dumplings img{
+
+.dumplings img {
     width: 100%;
-    height: 100%;   
+    height: 100%;
 }
-.extra{
+
+.extra {
     display: none;
 }
+
 .names :hover {
     transform: scale(1.1);
     transition: 0.4s ease-in-out;
@@ -63,11 +76,12 @@
     letter-spacing: 1px;
 }
 
-.footer{
+.footer {
     background-color: #1A191B;
     font-weight: 300;
 }
-.footer button{
+
+.footer button {
     padding: 10px 15px;
     background-color: transparent;
     border: 2px solid white;
@@ -83,19 +97,39 @@
     text-decoration: underline;
 }
 
+.btn-1:hover {
+    background-color: rgb(255, 255, 255);
+    color: #0A0B0A;
+}
 
 .para {
     color: #aeaeae;
     cursor: pointer;
 }
 
-.box-4 li{
+.box-4 li {
     list-style-type: none;
 }
-.small-footer{
+
+.none {
+    display: none;
+}
+
+@media (max-width:990px) {
+    .none {
+        display: block;
+    }
+
+    .block {
+        display: none;
+    }
+}
+
+.small-footer {
     background-color: #2A292B;
 }
-.small-footer a{
+
+.small-footer a {
     color: white;
     text-decoration: none;
 }
@@ -113,11 +147,12 @@
 }
 
 
-@media (max-width:1500px){
-    .upper{
+@media (max-width:1500px) {
+    .upper {
         display: none !important;
     }
-    .extra{
+
+    .extra {
         display: flex;
         flex-direction: column;
     }

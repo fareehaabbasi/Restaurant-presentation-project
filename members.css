@@ -30,14 +30,7 @@
 
 .navbar {
     background-color: black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
-.header {
-    margin-top: 100px;
 }
 
 .names :hover {
@@ -45,17 +38,26 @@
     transition: 0.4s ease-in-out;
 }
 
-.hero-sec {
+.team-mem {
     width: 100%;
     height: 100%;
-    background-color: #0A0B0A;
+}
+
+.text-team-mem {
+    width: 76%;
+    height: 100%;
+    color: white;
+}
+
+.text-team-mem p {
+    font-family: Roboto-light;
+    letter-spacing: 1px;
 }
 
 .cards-image {
     background-position: center;
     background-size: cover;
-    min-width: 100vh;
-    min-height: 55vh;
+    min-height: 100vh;
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
@@ -69,48 +71,57 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-.para-1 {
-    letter-spacing: 1.5px;
-    font-family: Roboto-light;
-    color: #0A0B0A;
+.color-overlay h3{
+    font-family: Roboto;
+    letter-spacing: 10px;
+}
+.find-1-img img{
+    max-width: 100vh;
+    cursor: pointer;
 }
 
-.color-overlay h1 {
-    letter-spacing: 1px;
+.find-img {
+    cursor: pointer;
 }
 
-.form {
-    width: 100%;
+.mile-text {
+    /* background-color: aqua; */
+    width: 70%;
     height: 100%;
+}
+
+.find-img:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.find-1-img:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.mile-text {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.mile-text p {
+    font-family: Roboto-light;
+    letter-spacing: 1px;
     color: white;
 }
 
-.form-control {
-    border-radius: 0;
-    border: 0.2px solid rgb(60, 58, 58);
-    background-color: transparent;
+.none {
+    display: none;
 }
 
-.form-check-label {
-    font-size: 14px;
-}
-
-.form-label {
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.btn-form {
-    background-color: white;
-    color: black;
-    letter-spacing: 1px;
-    border-radius: 0;
-}
-
-.btn-form:hover {
-    background-color: rgb(137, 94, 78);
-    color: white;
+@media (max-width:990px) {
+    .block {
+        display: none;
+    }
+    .none {
+        display: block;
+    }
 }
 
 .footer {
@@ -125,6 +136,11 @@
     color: white;
 }
 
+.btn-1:hover {
+    background-color: rgb(255, 255, 255);
+    color: #0A0B0A;
+}
+
 .footer h5 {
     color: white;
     letter-spacing: 1px;
@@ -133,11 +149,6 @@
 
 .footer p:hover {
     text-decoration: underline;
-}
-
-.btn-1:hover {
-    background-color: rgb(255, 255, 255);
-    color: #0A0B0A;
 }
 
 .para {
