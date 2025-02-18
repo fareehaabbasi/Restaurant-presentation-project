@@ -54,7 +54,6 @@
 .cards-image {
     background-position: center;
     background-size: cover;
-    min-width: 100vh;
     min-height: 55vh;
     position: relative;
     color: white;
